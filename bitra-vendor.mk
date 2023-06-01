@@ -6,6 +6,24 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/realme/bitra
 
 PRODUCT_COPY_FILES += \
+    vendor/realme/bitra/proprietary/system_ext/lib64/libAPSClient-cmd-jni.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libAPSClient-cmd-jni.so \
+    vendor/realme/bitra/proprietary/system_ext/lib64/libAPSClient-jni.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libAPSClient-jni.so \
+    vendor/realme/bitra/proprietary/system_ext/lib64/libAncFilter_jni.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libAncFilter_jni.so \
+    vendor/realme/bitra/proprietary/system_ext/lib64/libAncHumBokeh-jni.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libAncHumBokeh-jni.so \
+    vendor/realme/bitra/proprietary/system_ext/lib64/libAncHumanDoubleExposure-jni.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libAncHumanDoubleExposure-jni.so \
+    vendor/realme/bitra/proprietary/system_ext/lib64/libAncHumanRetain-jni_v2.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libAncHumanRetain-jni_v2.so \
+    vendor/realme/bitra/proprietary/system_ext/lib64/libAncHumanSegFigureFusion-jni.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libAncHumanSegFigureFusion-jni.so \
+    vendor/realme/bitra/proprietary/system_ext/lib64/libAncHumanVideo-jni.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libAncHumanVideo-jni.so \
+    vendor/realme/bitra/proprietary/system_ext/lib64/libApsFaceBeautyPreviewProductJni.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libApsFaceBeautyPreviewProductJni.so \
+    vendor/realme/bitra/proprietary/system_ext/lib64/libFileExtender-jni.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libFileExtender-jni.so \
+    vendor/realme/bitra/proprietary/system_ext/lib64/libOplusBlurPreviewJNI.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libOplusBlurPreviewJNI.so \
+    vendor/realme/bitra/proprietary/system_ext/lib64/libSuperTextWrapper.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libSuperTextWrapper.so \
+    vendor/realme/bitra/proprietary/system_ext/lib64/libXDocProcessSDK-jni.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libXDocProcessSDK-jni.so \
+    vendor/realme/bitra/proprietary/system_ext/lib64/libXDocProcessSDK.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libXDocProcessSDK.so \
+    vendor/realme/bitra/proprietary/system_ext/lib64/libYTCommon.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libYTCommon.so \
+    vendor/realme/bitra/proprietary/system_ext/lib64/libjnisingleblur_api.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libjnisingleblur_api.so \
+    vendor/realme/bitra/proprietary/system_ext/lib64/libjnistblur_api.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libjnistblur_api.so \
+    vendor/realme/bitra/proprietary/system_ext/lib64/libsingle_camera_bokeh_native.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libsingle_camera_bokeh_native.so \
     vendor/realme/bitra/proprietary/odm/etc/acdbdata/Bluetooth_cal.acdb:$(TARGET_COPY_OUT_ODM)/etc/acdbdata/Bluetooth_cal.acdb \
     vendor/realme/bitra/proprietary/odm/etc/acdbdata/General_cal.acdb:$(TARGET_COPY_OUT_ODM)/etc/acdbdata/General_cal.acdb \
     vendor/realme/bitra/proprietary/odm/etc/acdbdata/Global_cal.acdb:$(TARGET_COPY_OUT_ODM)/etc/acdbdata/Global_cal.acdb \
@@ -14,6 +32,15 @@ PRODUCT_COPY_FILES += \
     vendor/realme/bitra/proprietary/odm/etc/acdbdata/Headset_cal.acdb:$(TARGET_COPY_OUT_ODM)/etc/acdbdata/Headset_cal.acdb \
     vendor/realme/bitra/proprietary/odm/etc/acdbdata/Speaker_cal.acdb:$(TARGET_COPY_OUT_ODM)/etc/acdbdata/Speaker_cal.acdb \
     vendor/realme/bitra/proprietary/odm/etc/camera/CameraHWConfiguration.config:$(TARGET_COPY_OUT_ODM)/etc/camera/CameraHWConfiguration.config \
+    vendor/realme/bitra/proprietary/odm/etc/camera/anc/fusion_model:$(TARGET_COPY_OUT_ODM)/etc/camera/anc/fusion_model \
+    vendor/realme/bitra/proprietary/odm/etc/camera/anc/fusion_model_post:$(TARGET_COPY_OUT_ODM)/etc/camera/anc/fusion_model_post \
+    vendor/realme/bitra/proprietary/odm/etc/camera/anc/merged_model:$(TARGET_COPY_OUT_ODM)/etc/camera/anc/merged_model \
+    vendor/realme/bitra/proprietary/odm/etc/camera/anc/merged_model_post:$(TARGET_COPY_OUT_ODM)/etc/camera/anc/merged_model_post \
+    vendor/realme/bitra/proprietary/odm/etc/camera/anc/video_retention_model:$(TARGET_COPY_OUT_ODM)/etc/camera/anc/video_retention_model \
+    vendor/realme/bitra/proprietary/odm/etc/camera/anc/video_retention_model_post:$(TARGET_COPY_OUT_ODM)/etc/camera/anc/video_retention_model_post \
+    vendor/realme/bitra/proprietary/odm/etc/camera/anc/videolut_background.png:$(TARGET_COPY_OUT_ODM)/etc/camera/anc/videolut_background.png \
+    vendor/realme/bitra/proprietary/odm/etc/camera/anc/videolut_portrait.png:$(TARGET_COPY_OUT_ODM)/etc/camera/anc/videolut_portrait.png \
+    vendor/realme/bitra/proprietary/odm/etc/camera/anc/videolut_portrait_front.png:$(TARGET_COPY_OUT_ODM)/etc/camera/anc/videolut_portrait_front.png \
     vendor/realme/bitra/proprietary/odm/etc/camera/camera_engmode.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/camera_engmode.xml \
     vendor/realme/bitra/proprietary/odm/etc/camera/config/camera_unit_config:$(TARGET_COPY_OUT_ODM)/etc/camera/config/camera_unit_config \
     vendor/realme/bitra/proprietary/odm/etc/camera/config/gc8054:$(TARGET_COPY_OUT_ODM)/etc/camera/config/gc8054 \
@@ -26,6 +53,20 @@ PRODUCT_COPY_FILES += \
     vendor/realme/bitra/proprietary/odm/etc/camera/settings_fdc.txt:$(TARGET_COPY_OUT_ODM)/etc/camera/settings_fdc.txt \
     vendor/realme/bitra/proprietary/vendor/etc/libnfc-nxp-19705.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nxp-19705.conf \
     vendor/realme/bitra/proprietary/vendor/etc/libnfc-nxp-19795.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nxp-19795.conf \
+    vendor/realme/bitra/proprietary/odm/etc/camera/gesture/modules/tt_hand_box_reg_v12.0.model:$(TARGET_COPY_OUT_ODM)/etc/camera/gesture/modules/tt_hand_box_reg_v12.0.model \
+    vendor/realme/bitra/proprietary/odm/etc/camera/gesture/modules/tt_hand_det_v11.0.model:$(TARGET_COPY_OUT_ODM)/etc/camera/gesture/modules/tt_hand_det_v11.0.model \
+    vendor/realme/bitra/proprietary/odm/etc/camera/gesture/modules/tt_hand_gesture_v11.1.model:$(TARGET_COPY_OUT_ODM)/etc/camera/gesture/modules/tt_hand_gesture_v11.1.model \
+    vendor/realme/bitra/proprietary/odm/etc/camera/gesture/modules/tt_hand_kp_v6.0.model:$(TARGET_COPY_OUT_ODM)/etc/camera/gesture/modules/tt_hand_kp_v6.0.model \
+    vendor/realme/bitra/proprietary/odm/etc/camera/gesture/modules/tt_hand_lr_v3.0.model:$(TARGET_COPY_OUT_ODM)/etc/camera/gesture/modules/tt_hand_lr_v3.0.model \
+    vendor/realme/bitra/proprietary/odm/etc/camera/gesture/tt_hand_box_reg_v12.0.model:$(TARGET_COPY_OUT_ODM)/etc/camera/gesture/tt_hand_box_reg_v12.0.model \
+    vendor/realme/bitra/proprietary/odm/etc/camera/gesture/tt_hand_det_v11.0.model:$(TARGET_COPY_OUT_ODM)/etc/camera/gesture/tt_hand_det_v11.0.model \
+    vendor/realme/bitra/proprietary/odm/etc/camera/gesture/tt_hand_gesture_v11.1.model:$(TARGET_COPY_OUT_ODM)/etc/camera/gesture/tt_hand_gesture_v11.1.model \
+    vendor/realme/bitra/proprietary/odm/etc/camera/gesture/tt_hand_kp_v6.0.model:$(TARGET_COPY_OUT_ODM)/etc/camera/gesture/tt_hand_kp_v6.0.model \
+    vendor/realme/bitra/proprietary/odm/etc/camera/gesture/tt_hand_lr_v3.0.model:$(TARGET_COPY_OUT_ODM)/etc/camera/gesture/tt_hand_lr_v3.0.model \
+    vendor/realme/bitra/proprietary/odm/etc/camera/license_release_fdc.lic:$(TARGET_COPY_OUT_ODM)/etc/camera/license_release_fdc.lic \
+    vendor/realme/bitra/proprietary/odm/etc/camera/model/license.lic:$(TARGET_COPY_OUT_ODM)/etc/camera/model/license.lic \
+    vendor/realme/bitra/proprietary/odm/etc/camera/omoji/assets/sdk_assets/ai_face_processor_e47_s1.bundle:$(TARGET_COPY_OUT_ODM)/etc/camera/omoji/assets/sdk_assets/ai_face_processor_e47_s1.bundle \
+    vendor/realme/bitra/proprietary/odm/etc/camera/omoji/assets/sdk_assets/controller_cpp.bundle:$(TARGET_COPY_OUT_ODM)/etc/camera/omoji/assets/sdk_assets/controller_cpp.bundle \
     vendor/realme/bitra/proprietary/vendor/etc/libnfc-nci.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nci.conf \
     vendor/realme/bitra/proprietary/odm/etc/samsung1024_ana6706_cinema_eyeprotect_data.xml:$(TARGET_COPY_OUT_ODM)/etc/samsung1024_ana6706_cinema_eyeprotect_data.xml \
     vendor/realme/bitra/proprietary/odm/etc/samsung1024_ana6706_colorful_eyeprotect_data.xml:$(TARGET_COPY_OUT_ODM)/etc/samsung1024_ana6706_colorful_eyeprotect_data.xml \
@@ -69,6 +110,9 @@ PRODUCT_COPY_FILES += \
     vendor/realme/bitra/proprietary/odm/lib64/camera/com.qti.tuned.sm8250_qtech_s5kgw1.bin:$(TARGET_COPY_OUT_ODM)/lib64/camera/com.qti.tuned.sm8250_qtech_s5kgw1.bin \
     vendor/realme/bitra/proprietary/odm/lib64/camera/com.qti.tuned.sm8250_shine_ov02a1b.bin:$(TARGET_COPY_OUT_ODM)/lib64/camera/com.qti.tuned.sm8250_shine_ov02a1b.bin \
     vendor/realme/bitra/proprietary/odm/lib64/camera/com.qti.tuned.sm8250_truly_hi846_19795.bin:$(TARGET_COPY_OUT_ODM)/lib64/camera/com.qti.tuned.sm8250_truly_hi846_19795.bin \
+    vendor/realme/bitra/proprietary/odm/lib64/libosensehalclient.so:$(TARGET_COPY_OUT_ODM)/lib64/libosensehalclient.so \
+    vendor/realme/bitra/proprietary/odm/lib64/vendor.oplus.hardware.cameraextension@1.0-service-impl.so:$(TARGET_COPY_OUT_ODM)/lib64/vendor.oplus.hardware.cameraextension@1.0-service-impl.so \
+    vendor/realme/bitra/proprietary/odm/lib64/vendor.oplus.hardware.osense.client@1.0.so:$(TARGET_COPY_OUT_ODM)/lib64/vendor.oplus.hardware.osense.client@1.0.so \
     vendor/realme/bitra/proprietary/odm/vendor/firmware/goodixfp.b00:$(TARGET_COPY_OUT_ODM)/vendor/firmware/goodixfp.b00 \
     vendor/realme/bitra/proprietary/odm/vendor/firmware/goodixfp.b01:$(TARGET_COPY_OUT_ODM)/vendor/firmware/goodixfp.b01 \
     vendor/realme/bitra/proprietary/odm/vendor/firmware/goodixfp.b02:$(TARGET_COPY_OUT_ODM)/vendor/firmware/goodixfp.b02 \
@@ -95,6 +139,15 @@ PRODUCT_COPY_FILES += \
     vendor/realme/bitra/proprietary/vendor/etc/qdcm_calib_data_19795_samsung_AMS678UW01_dsc_cmd_mode_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_19795_samsung_AMS678UW01_dsc_cmd_mode_panel.xml \
     vendor/realme/bitra/proprietary/vendor/etc/qdcm_calib_data_samsung_AMS678UW01_dsc_cmd_mode_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_samsung_AMS678UW01_dsc_cmd_mode_panel.xml \
     vendor/realme/bitra/proprietary/vendor/etc/qdcm_calib_data_samsung_AMS678UW01_qhd_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_samsung_AMS678UW01_qhd_panel.xml \
+    vendor/realme/bitra/proprietary/system_ext/lib/libHeifEncoderWrapper.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libHeifEncoderWrapper.so \
+    vendor/realme/bitra/proprietary/system_ext/lib/libNativeWinBuffExchange.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libNativeWinBuffExchange.so \
+    vendor/realme/bitra/proprietary/system_ext/lib64/libHeifEncoderWrapper.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libHeifEncoderWrapper.so \
+    vendor/realme/bitra/proprietary/system_ext/lib64/libHeifWinBufExchg-jni.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libHeifWinBufExchg-jni.so \
+    vendor/realme/bitra/proprietary/system_ext/lib64/libNativeWinBuffExchange.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libNativeWinBuffExchange.so \
+    vendor/realme/bitra/proprietary/system_ext/lib64/liboplusheifwriter.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/liboplusheifwriter.so \
+    vendor/realme/bitra/proprietary/system_ext/lib64/vendor.oplus.hardware.cameraMDM@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.oplus.hardware.cameraMDM@1.0.so \
+    vendor/realme/bitra/proprietary/system_ext/lib64/vendor.oplus.hardware.commondcs@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.oplus.hardware.commondcs@1.0.so \
+    vendor/realme/bitra/proprietary/vendor/etc/init/android.hardware.camera.provider@2.4-service_64.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.camera.provider@2.4-service_64.rc \
     vendor/realme/bitra/proprietary/vendor/firmware/a650_gmu.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/a650_gmu.bin \
     vendor/realme/bitra/proprietary/vendor/firmware/a650_sqe.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/a650_sqe.fw \
     vendor/realme/bitra/proprietary/vendor/firmware/a650_zap.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/a650_zap.b00 \
@@ -123,9 +176,41 @@ PRODUCT_COPY_FILES += \
     vendor/realme/bitra/proprietary/vendor/firmware/ipa_uc.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa_uc.b02 \
     vendor/realme/bitra/proprietary/vendor/firmware/ipa_uc.elf:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa_uc.elf \
     vendor/realme/bitra/proprietary/vendor/firmware/ipa_uc.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa_uc.mdt \
+    vendor/realme/bitra/proprietary/vendor/lib/camera.device@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera.device@1.0-impl.so \
+    vendor/realme/bitra/proprietary/vendor/lib/camera.device@3.2-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera.device@3.2-impl.so \
+    vendor/realme/bitra/proprietary/vendor/lib/camera.device@3.3-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera.device@3.3-impl.so \
+    vendor/realme/bitra/proprietary/vendor/lib/camera.device@3.4-external-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera.device@3.4-external-impl.so \
+    vendor/realme/bitra/proprietary/vendor/lib/camera.device@3.4-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera.device@3.4-impl.so \
+    vendor/realme/bitra/proprietary/vendor/lib/camera.device@3.5-external-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera.device@3.5-external-impl.so \
+    vendor/realme/bitra/proprietary/vendor/lib/camera.device@3.5-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera.device@3.5-impl.so \
+    vendor/realme/bitra/proprietary/vendor/lib/camera.device@3.6-external-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera.device@3.6-external-impl.so \
     vendor/realme/bitra/proprietary/vendor/lib/hw/audio.primary.kona.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/audio.primary.kona.so \
     vendor/realme/bitra/proprietary/vendor/lib/hw/sound_trigger.primary.kona.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/sound_trigger.primary.kona.so \
+    vendor/realme/bitra/proprietary/vendor/lib64/camera.device@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera.device@1.0-impl.so \
+    vendor/realme/bitra/proprietary/vendor/lib64/camera.device@3.2-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera.device@3.2-impl.so \
+    vendor/realme/bitra/proprietary/vendor/lib64/camera.device@3.3-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera.device@3.3-impl.so \
+    vendor/realme/bitra/proprietary/vendor/lib64/camera.device@3.4-external-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera.device@3.4-external-impl.so \
+    vendor/realme/bitra/proprietary/vendor/lib64/camera.device@3.4-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera.device@3.4-impl.so \
+    vendor/realme/bitra/proprietary/vendor/lib64/camera.device@3.5-external-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera.device@3.5-external-impl.so \
+    vendor/realme/bitra/proprietary/vendor/lib64/camera.device@3.5-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera.device@3.5-impl.so \
+    vendor/realme/bitra/proprietary/vendor/lib64/camera.device@3.6-external-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera.device@3.6-external-impl.so \
+    vendor/realme/bitra/proprietary/vendor/lib64/libcapiv2svacnn.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcapiv2svacnn.so \
+    vendor/realme/bitra/proprietary/vendor/lib64/libcapiv2svarnn.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcapiv2svarnn.so \
+    vendor/realme/bitra/proprietary/vendor/lib64/libcapiv2vop.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcapiv2vop.so \
+    vendor/realme/bitra/proprietary/vendor/lib64/libhdrdynamic.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhdrdynamic.so \
+    vendor/realme/bitra/proprietary/vendor/lib64/libhdrdynamicootf.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhdrdynamicootf.so \
     vendor/realme/bitra/proprietary/vendor/lib64/libkeymasterdeviceutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libkeymasterdeviceutils.so \
     vendor/realme/bitra/proprietary/vendor/lib64/libkeymasterprovision.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libkeymasterprovision.so \
     vendor/realme/bitra/proprietary/vendor/lib64/libkeymasterutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libkeymasterutils.so \
-    vendor/realme/bitra/proprietary/vendor/lib64/libqtikeymaster4.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqtikeymaster4.so
+    vendor/realme/bitra/proprietary/vendor/lib64/libqtikeymaster4.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqtikeymaster4.so \
+    vendor/realme/bitra/proprietary/vendor/lib64/libsns_device_mode_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsns_device_mode_stub.so \
+    vendor/realme/bitra/proprietary/vendor/lib64/libsns_fastRPC_util.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsns_fastRPC_util.so \
+    vendor/realme/bitra/proprietary/vendor/lib64/libsns_low_lat_stream_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsns_low_lat_stream_stub.so \
+    vendor/realme/bitra/proprietary/vendor/lib64/libsnsapi.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsnsapi.so \
+    vendor/realme/bitra/proprietary/vendor/lib64/libsnsdiaglog.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsnsdiaglog.so \
+    vendor/realme/bitra/proprietary/vendor/lib64/vendor.oplus.hardware.cameraextension@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.oplus.hardware.cameraextension@1.0.so
+
+PRODUCT_PACKAGES += \
+    oplus-support-wrapper \
+    com.oplus.camera.unit.sdk.adapter \
+    com.oplus.camera.unit.sdk
