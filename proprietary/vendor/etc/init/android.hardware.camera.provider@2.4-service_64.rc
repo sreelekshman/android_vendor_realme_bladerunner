@@ -11,7 +11,6 @@ service vendor.camera-provider-2-4 /vendor/bin/hw/android.hardware.camera.provid
 /*shoulei.sun@camera add for vts_ibase_test fail*/
 #ifdef OPLUS_FEATURE_CAMERA_COMMON
     interface vendor.qti.hardware.camera.postproc@1.0::IPostProcService camerapostprocservice
-    interface vendor.oplus.hardware.cameraextension@1.0::ICameraExtensionService cameraextensionservice
 #endif
     class hal
     user cameraserver
