@@ -6,12 +6,6 @@ soong_namespace {
 }
 
 dex_import {
-	name: "oplus-support-wrapper",
-	owner: "realme",
-	jars: ["proprietary/system/framework/oplus-support-wrapper.jar"],
-}
-
-dex_import {
 	name: "com.oplus.camera.unit.sdk.adapter",
 	owner: "realme",
 	jars: ["proprietary/system_ext/framework/com.oplus.camera.unit.sdk.adapter.jar"],
