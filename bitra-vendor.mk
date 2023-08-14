@@ -111,6 +111,8 @@ PRODUCT_COPY_FILES += \
     vendor/realme/bitra/proprietary/odm/lib64/camera/com.qti.tuned.sm8250_qtech_s5kgw1.bin:$(TARGET_COPY_OUT_ODM)/lib64/camera/com.qti.tuned.sm8250_qtech_s5kgw1.bin \
     vendor/realme/bitra/proprietary/odm/lib64/camera/com.qti.tuned.sm8250_shine_ov02a1b.bin:$(TARGET_COPY_OUT_ODM)/lib64/camera/com.qti.tuned.sm8250_shine_ov02a1b.bin \
     vendor/realme/bitra/proprietary/odm/lib64/camera/com.qti.tuned.sm8250_truly_hi846_19795.bin:$(TARGET_COPY_OUT_ODM)/lib64/camera/com.qti.tuned.sm8250_truly_hi846_19795.bin \
+    vendor/realme/bitra/proprietary/odm/lib64/libSonyIMX471RmscLibrary.so:$(TARGET_COPY_OUT_ODM)/lib64/libSonyIMX471RmscLibrary.so \
+    vendor/realme/bitra/proprietary/odm/lib64/libhwconfigurationutil.so:$(TARGET_COPY_OUT_ODM)/lib64/libhwconfigurationutil.so \
     vendor/realme/bitra/proprietary/odm/lib64/libosensehalclient.so:$(TARGET_COPY_OUT_ODM)/lib64/libosensehalclient.so \
     vendor/realme/bitra/proprietary/odm/lib64/vendor.oplus.hardware.cameraextension@1.0-service-impl.so:$(TARGET_COPY_OUT_ODM)/lib64/vendor.oplus.hardware.cameraextension@1.0-service-impl.so \
     vendor/realme/bitra/proprietary/odm/lib64/vendor.oplus.hardware.osense.client@1.0.so:$(TARGET_COPY_OUT_ODM)/lib64/vendor.oplus.hardware.osense.client@1.0.so \
@@ -195,6 +197,7 @@ PRODUCT_COPY_FILES += \
     vendor/realme/bitra/proprietary/vendor/lib64/camera.device@3.5-external-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera.device@3.5-external-impl.so \
     vendor/realme/bitra/proprietary/vendor/lib64/camera.device@3.5-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera.device@3.5-impl.so \
     vendor/realme/bitra/proprietary/vendor/lib64/camera.device@3.6-external-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera.device@3.6-external-impl.so \
+    vendor/realme/bitra/proprietary/vendor/lib64/libbitmlengine.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbitmlengine.so \
     vendor/realme/bitra/proprietary/vendor/lib64/libcapiv2svacnn.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcapiv2svacnn.so \
     vendor/realme/bitra/proprietary/vendor/lib64/libcapiv2svarnn.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcapiv2svarnn.so \
     vendor/realme/bitra/proprietary/vendor/lib64/libcapiv2vop.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcapiv2vop.so \
