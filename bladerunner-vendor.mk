@@ -51,7 +51,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/bladerunner/proprietary/odm/etc/camera/config/oplus_camera_config:$(TARGET_COPY_OUT_ODM)/etc/camera/config/oplus_camera_config \
     vendor/realme/bladerunner/proprietary/odm/etc/camera/config/s5k3m5sx:$(TARGET_COPY_OUT_ODM)/etc/camera/config/s5k3m5sx \
     vendor/realme/bladerunner/proprietary/odm/etc/camera/config/s5kgw1:$(TARGET_COPY_OUT_ODM)/etc/camera/config/s5kgw1 \
-    vendor/realme/bladerunner/proprietary/odm/etc/camera/settings_fdc.txt:$(TARGET_COPY_OUT_ODM)/etc/camera/settings_fdc.txt \
     vendor/realme/bladerunner/proprietary/vendor/etc/libnfc-nxp-19705.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nxp-19705.conf \
     vendor/realme/bladerunner/proprietary/vendor/etc/libnfc-nxp-19795.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nxp-19795.conf \
     vendor/realme/bladerunner/proprietary/odm/etc/camera/gesture/modules/tt_hand_box_reg_v12.0.model:$(TARGET_COPY_OUT_ODM)/etc/camera/gesture/modules/tt_hand_box_reg_v12.0.model \
